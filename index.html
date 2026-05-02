@@ -19,8 +19,3 @@
 </body>
 </html>
 
-ok so like the circuit is using only nmos transistors for a b c and d, it's kind of like pass transistor logic, where the nmos are connected in series and parallel depending on the inputs. the purpose is to let the signal go through when certain inputs are active, so it works like a logic gate but it only uses nmos instead of the usual cmos design.
-
-and yeah it doesn’t have any pmos in the main logic part, maybe to save transistors or make it simpler. but there’s a “weak” pmos at the top (that one labeled “weak”), it’s there to pull the output Y high when no nmos is pulling it low. it's not as strong as a normal pmos, just enough so that Y doesn’t float and has a default value of 1.
-
-so even without using a pmos in the logic, it still works because the nmos transistors pull the output low when needed, and the weak pmos helps bring it high when nothing is happening.
